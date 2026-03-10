@@ -45,7 +45,7 @@ python src/train_model.py
 streamlit run app/app.py
 ```
 
-```
+
 ## Branches
 - `main` : version stable
 - `feature/eda-p2` : pour Lehvnxx (EDA)
@@ -53,7 +53,7 @@ streamlit run app/app.py
 - `feature/xgboost-p4` : pour JaurXs (XGBoost)
 - `feature/svm-interface-p5` : pour Hansem01-boot (SVM + Interface)
 - `feature/tests-p1` : pour Lilicat22 (tests et coordination)
----
+
 
 ## Comment faire :
 
@@ -61,5 +61,3 @@ streamlit run app/app.py
 ```bash
 nano README.md
 ```
----
-
