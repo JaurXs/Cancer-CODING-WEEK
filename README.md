@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Projet Cancer du Col de l'Utérus
 Application d'aide à la décision médicale pour évaluer le risque de cancer du col de l'utérus à partir de facteurs comportementaux et médicaux. Utilise un modèle de machine learning explicable avec SHAP.
 ## Équipe
@@ -11,7 +11,6 @@ Application d'aide à la décision médicale pour évaluer le risque de cancer d
 - Personne 5 : Modèle SVM & Interface
 
 ## Structure du projet
-```
 
 cervical-cancer-risk/
 ├── .github/workflows/    # CI/CD
@@ -36,7 +35,7 @@ cd Cancer-CODING-WEEK
 pip install -r requirements.txt
 ```
 
-Utilisation
+## Utilisation
 
 ```bash
 # Entraîner les modèles
