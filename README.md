@@ -11,7 +11,7 @@ Application d'aide à la décision médicale pour évaluer le risque de cancer d
 - Personne 5 : Modèle SVM & Interface
 
 ## Structure du projet
-
+```
 cervical-cancer-risk/
 ├── .github/workflows/    # CI/CD
 ├── notebooks/            # EDA
