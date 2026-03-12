@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score
 
 # Chargement de la dataset-1
-data = pd.read_csv("cervical_cancer.csv")
+data = pd.read_csv("data.csv")
 
 # Remplacer les valeurs manquantes par la médiane-2
 data = data.replace('?', np.nan)
