@@ -19,8 +19,8 @@ def load_data():
     X_train = pd.read_csv(os.path.join(data_path, "X_train_cleaned.csv"))
     X_test = pd.read_csv(os.path.join(data_path, "X_test_cleaned.csv"))
 
-    y_train = pd.read_csv(os.path.join(data_path, "y_train.csv"))
-    y_test = pd.read_csv(os.path.join(data_path, "y_test.csv"))
+    y_train = pd.read_csv(os.path.join(data_path, "y_train_cleaned.csv"))
+    y_test = pd.read_csv(os.path.join(data_path, "y_test_cleaned.csv"))
 
     # convertir en vecteur
     y_train = y_train.values.ravel()
