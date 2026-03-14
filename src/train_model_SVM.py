@@ -3,10 +3,11 @@
 
 from sklearn.svm import SVC
 from sklearn.preprocessing import StandardScaler
+from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 import joblib
 import os
-
+from data_processing_SVM import load_data
 
 def train_svm(X_train, y_train):
 
@@ -15,6 +16,7 @@ def train_svm(X_train, y_train):
     """
 
     svm_pipeline = Pipeline([
+        ("imputer", SimpleImputer(strategy="mean")),
         ("scaler", StandardScaler()),
         ("svm", SVC(kernel="rbf", probability=True))
     ])
@@ -35,3 +37,6 @@ def train_svm(X_train, y_train):
     print("Model sauvegardé dans :", model_file)
 
     return svm_pipeline
+
+X_train, X_test, y_train, y_test = load_data()
+train_svm(X_train, y_train)
